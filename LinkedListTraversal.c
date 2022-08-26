@@ -7,9 +7,7 @@ struct Node{
 void getData(struct Node* );
 void showData(struct Node*);
 int main(){
-    struct Node* new = (struct Node*)malloc(sizeof(struct Node));
-    struct Node* head, *ptr;
-    head = ptr = new ;
+    struct Node* head= (struct Node*)malloc(sizeof(struct Node));
     getData(head);
     showData(head);
     return 0 ;
